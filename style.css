@@ -587,7 +587,7 @@ body{
   border: none;
   padding: 10px;
   animation-name: barbcoffe;
-  animation-duration: 3s;
+  animation-duration: 4s;
  }
 
  @keyframes barbcoffe {
