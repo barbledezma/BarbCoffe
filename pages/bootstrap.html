@@ -8,22 +8,80 @@
 
       <!--estilo local de bootstrap-->
       <link rel="stylesheet" href="../css/bootstrap.css">
+
+      <!--enlace a css-->
+    <link rel="stylesheet"  href="../style.css">
 </head>
 <body>
     
-      <div class="grid">
-            <div class="g-col-4"><div  id="arriba" class="border titulo">
+      <header class="grid container-fluid">
+            <div class="g-col-3"><div  id="arriba" class="titulo">
                 <img src="../img/cof.png" class="logo" alt="logo" width="10%">
                 <h1 class="display-1">BarbCaffe</h1>
             </div>
-      
-            <div class="g-col-4"><img src="https://memegenerator.net/img/instances/67467055.jpg"></div>
-            <div class="g-col-4"><div class="alert alert-warning" role="alert">
-            <h1>...en construccion</h1> </div>
+      </header>
+            <div class="g-col-3">
+                  <nav class="container-fluid">
+                        <!--navegador-->
+                        
+                       
+                                  <span><a href="../index.html">Pagina principal</a></span>
+                                  <span><a href="../pages/quienessomos.html">Quienes somos</a></span>
+                                  <span><a href="../pages/productos.html">Nuestros productos</a></span>
+                                  <span><a href="../pages/contactanos.html">Contactanos</a></span>
+                                  <span><a href="../pages/registro.html">Registrar</a></span>
+                                  <span><a href="../pages/bootstrap.html">Mis Pedidos</a></span>
+                          
+                    </nav> 
+            </div>
+            <div class="g-col-3">
+                  <table class="table table-danger">
+                  <thead>
+                    <tr>
+                      <th scope="col">Numero de pedidos</th>
+                      <th scope="col">Fecha</th>
+                      <th scope="col">Direccion</th>
+                      <th scope="col">Pedido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>22/01/2022</td>
+                      <td>Mate de luna 3010</td>
+                      <td>Cafe *3</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>23/03/2022</td>
+                      <td>Mate de luna 3010</td>
+                      <td>Cafe *6</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>04/04/2022</td>         
+                      <td>San juan 200</td>
+                      <td>Cafe *4</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>04/02/2022</td>         
+                        <td>San juan 200</td>
+                        <td>Cafe *8</td>
+                      </tr>
+                  </tbody>
+                </table>
+            </div>
         
-      </div>
+      
 
-
+            <footer class="border">
+                  <a href="#arriba" class="arriba"> Ir arriba </a>
+                      <p class="copy"><strong>copyright 2022 creado por barby</strong></p>
+                      <div class="my-icono">
+                        <img src="../img/fc.png" width="40" alt="logo facebook">
+                        <img src="../img/inst.png" width="40" alt="logo instagram">
+              </footer>
         <!--javascript bootstrap-->
         <script src="js/bootstrap.js"></script>
 </body>

@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
      <!--estilo local de bootstrap-->
-     <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+     <link rel="stylesheet" href="css/bootstrap.css">
 	<!--enlace a css-->
     <link rel="stylesheet" href="style.css">
     <!--google fonts online-->
@@ -21,13 +21,13 @@
 <body id="grid-area">
     
         <header>
-            <div  id="arriba" class="border titulo">
+            <div  id="arriba" class="titulo">
                 <img src="img/cof.png" class="logo" alt="logo" width="10%">
                 <h1>BarbCaffe</h1>
             </div>
         </header>
         
-        <nav class="border">
+        <nav class="container-fluid">
             <!--navegador-->
             
                 <span><a href="index.html">Pagina principal</a></span>
@@ -35,20 +35,28 @@
                 <span><a href="pages/productos.html">Nuestros productos</a></span>
                 <span><a href="pages/contactanos.html">Contactanos</a></span>
                 <span><a href="pages/registro.html">Registrar</a></span>
-                <span><a href="pages/bootstrap.html">Proximante</a></span>
+                <span><a href="pages/bootstrap.html">Mis Pedidos</a></span>
         </nav> 
-        <section id="compreAqui" class="border">
-            <article class="compre">
-                    <img  src="https://perubiodiverso.com/wp-content/uploads/2015/12/cafe-1.jpg" width="30%"
-					alt="cafecito">
-                    <p class="compreAqui"><strong>Compreer cafe aquiCompre cafe aquiCompre cafe aquiCompre cafe aquiCompre cafe aquiCompre cafe
-                        aquiCompre cafe aquiCompre cafe aquiCompre cafe aquiCompre cafe aquiCompre cafe aquiCompre cafe
-                        aquiCompre cafe aquiCompre cafe aquiCompre cafe aquiCompre cafe aquiCompre cafe aqui </strong></p>
-            </article>
+        <section id="compreAqui">
+            <article class="compre">           
+                      <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                <img  class="rounded mx-auto d-block" src="https://perubiodiverso.com/wp-content/uploads/2015/12/cafe-1.jpg" width="30%" alt="cafecito">
+                                <p class="text-center"><em>"El cafe huele a cielo recien molido..."</em></p>
+                             </div>
+                                <div class="col-12 col-md-6">
+                                <img class="rounded mx-auto d-block" src="img/chica.jpg" width="45%" alt="cafee">
+                                <p class="text-center"><em>"El cafe es un tipo de magia que se puede tomar"</em></p></div>
+                              </div>
+                        </div>
+                 </div>
+             </article>
+
             
         </section>
        
-        <footer class="border">
+        <footer >
             <a href="#arriba" class="arriba"> Ir arriba </a>
 		    <p class="copy"><strong>copyright 2022 creado por barby</strong></p>
 		    <div class="my-icono">
