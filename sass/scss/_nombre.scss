@@ -1,0 +1,61 @@
+/*************************
+extends y mixtins
+**************************/ 
+// extend
+
+.mihistoria{
+    
+    background-color: rgba(141, 47, 47, 0.644);
+    border-radius: 50px;
+}
+
+.parami{
+    @extend .mihistoria;
+    background-color: rgba(255, 62, 62, 0.514);
+}
+
+// mixtins
+// @mixins nombre ($parametro1, $parametro2)
+//{ propiedad1: parametro1;
+// propiedad2: parametro2;
+// }
+
+@mixin alinear ($direccion, $just){
+    flex-direction: row;
+    justify-content:baseline;
+}
+
+.mihistoria{
+    @include alinear(row, baseline);
+}
+
+
+/**********************
+maps
+**********************/
+
+//sintaxis
+// $nombre: (
+    //val1: valor 1;
+    //val2: valor 2;
+    //val3: valor 3;
+    //val4: valor 4; )
+
+$mapa:(
+    facebook: blue,
+    instagram: pink
+
+);
+
+//maps con each
+// @each clave, valor in $mapa{}
+/*maps con each*/
+
+@each $nombre, $colorcito in $mapa {
+  .my-icono#{$nombre} {
+      background-color: $colorcito;
+  }
+
+}
+
+

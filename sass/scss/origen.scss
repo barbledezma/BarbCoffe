@@ -1,3 +1,11 @@
+
+//import
+@import "nombre";
+
+// variables
+// sintaxis -->$nombre: valor;
+$fondo: linear-gradient(315deg, #a44a2a 0%, #cd8a66 74%);
+
 /*estilos generales*/
 /*MEDIA QUERIES*/
 
@@ -187,7 +195,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 color: #74270b;
-                background-image: linear-gradient(315deg, #a44a2a 0%, #cd8a66 74%);
+                background-image: $fondo;
                 padding: 40px 20px 20px 20px;
 
                 .titulo {
@@ -215,7 +223,7 @@ body {
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        background-image: linear-gradient(315deg, #a44a2a 0%, #cd8a66 74%);
+                        background-image: $fondo;
 
                         .mihistoria {
                             font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -313,7 +321,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 color: #74270b;
-                background-image: linear-gradient(315deg, #a44a2a 0%, #cd8a66 74%);
+                background-image: $fondo;
                 padding: 40px 20px 20px 20px;
 
                 .titulo {
@@ -344,7 +352,7 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-image: linear-gradient(315deg, #a44a2a 0%, #cd8a66 74%);
+                    background-image: $fondo;
                     margin: 20px;
                     padding: 20px;
 
